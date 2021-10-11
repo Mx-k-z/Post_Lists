@@ -85,11 +85,11 @@ function Posts() {
 				posts={sortedAndSearchedPost}
 				title="Posts Lists"/>
 			<div ref={lastElem}/>
-			<Pagination
-				totalPages={totalPages}
-				page={page}
-				changePage={changePage}
-			/>
+			{/*<Pagination*/}
+			{/*	totalPages={totalPages}*/}
+			{/*	page={page}*/}
+			{/*	changePage={changePage}*/}
+			{/*/>*/}
 		</div>
 	);
 }
