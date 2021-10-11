@@ -17,12 +17,14 @@
 
 .post {
   display: flex;
-  padding: 15px;
-  border: 2px solid teal;
+  padding: 13px;
+  border: 2px solid rgb(71, 122, 164);
+  border-radius: 3px;
   margin-top: 15px;
   justify-content: space-between;
   align-items: center;
 }
+
 .post__btn {
   display: flex;
 }
@@ -72,4 +74,11 @@
 
 .navbar__link {
   padding: 5px;
+}
+
+@media screen and (max-width: 833px){
+  .App{
+    padding: 0 10px;
+    width: 100%;
+  }
 }

@@ -9,7 +9,7 @@ import PostService from './../API/PostService'
 import Loader from './../Components/UI/Loader/Loader'
 import {useFetch} from '../Hooks/useFetch'
 import {getPageCount} from '../utils/Pages'
-import Pagination from './../Components/UI/Pagination/Pagination'
+// import Pagination from './../Components/UI/Pagination/Pagination'
 import {useObserver} from '../Hooks/useObserver'
 import MySelect from '../Components/UI/Select/MySelect'
 
